@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"  
+    "test": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +12,8 @@
   "type": "commonjs",
   "dependencies": {
     "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
     "express": "^5.2.1",
-    "sqlite3": "^5.1.7"
+    "mysql2": "^3.17.0"
   }
 }
